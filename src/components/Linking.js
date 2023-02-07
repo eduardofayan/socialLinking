@@ -11,6 +11,7 @@ const AreaLink = styled.div`
   height: 600px;
   width: 800px;
   padding: 1rem;
+  margin: 0 0.5rem;
   background: rgba(0,0,0,0.75);
   border-radius: 2rem;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
@@ -56,7 +57,7 @@ const Description = styled.div`
   font-size: 14px;
 
   @media only screen and (max-width:767px) {
-    font-size: 12px;
+    font-size: 13px;
     padding: 0;
     }
 `;
