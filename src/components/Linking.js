@@ -39,9 +39,14 @@ const PhotoPerfil = styled.div`
     justify-content: center;
     animation: ${pulse} 2s linear infinite;
 
-    @media only screen and (max-width:330px) {
-      width: 5rem;
-      height: 7rem;
+    @media only screen and (max-width:367px) {
+      width: 6rem;
+      height: 8rem;
+    }
+
+    @media only screen and (min-width:368px) and (max-width:434px) {
+      width: 7rem;
+      height: 11rem;
     }
 `;
 
