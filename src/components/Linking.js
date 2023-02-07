@@ -48,7 +48,7 @@ const PhotoPerfil = styled.div`
       width: 7rem;
       height: 11rem;
     }
-    @media only screen and (max-width:327px) {
+    @media only screen and (max-width:328px) {
       width: 5rem;
       height: 6rem;
     }
